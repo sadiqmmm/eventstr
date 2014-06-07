@@ -39,3 +39,4 @@ gem 'spring',        group: :development
 
 gem 'devise'
 gem 'puma'
+gem 'friendly_id'
