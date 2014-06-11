@@ -21,13 +21,23 @@
 </p>
 
 <p>
-  <strong>Address:</strong>
+  <strong>Address:</strong><br />
   <%= @event.address %>
 </p>
 
 <p>
-  <strong>Organizer:</strong>
+  <strong>Agenda:</strong>
+  <%= @event.agenda %>
+</p>
+
+<p>
+  <strong>Organizer:</strong><br />
   <%= @event.organizer_id %>
+</p>
+
+<p>
+  <strong>Tags:</strong><br />
+  <%= @event.all_tags %>  
 </p>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |

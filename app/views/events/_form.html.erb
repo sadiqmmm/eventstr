@@ -16,6 +16,10 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
+    <%= f.label :all_tags, "List All Tags, separate each tag by a comma" %><br />
+    <%= f.text_field :all_tags %>
+  </div>
+  <div class="field">
     <%= f.label :start_date %><br>
     <%= f.datetime_select :start_date %>
   </div>
@@ -30,6 +34,10 @@
   <div class="field">
     <%= f.label :address %><br>
     <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :agenda %><br />
+    <%= f.text_field :agenda %>
   </div>
   <div class="field">
     <%= f.label :organizer_id %><br>
